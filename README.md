@@ -7,18 +7,6 @@ Usando a IDE [Remix](http://remix.ethereum.org), desenvolva dois contratos intel
 
 [https://faucet.ropsten.be](https://faucet.ropsten.be/)
 
-## Metodologia
-
-O trabalho deve ser realizado **individualmente ou em dupla**. Os contratos desenvolvidos devem estar em seu repositório privado Github Classroom **até as 23:59 do dia 27/01/2022**, com todos os arquivos principais contendo no cabeçalho **os nomes dos componentes e o *link* para o *block explorer* [ropsten.etherescan.io](https://ropsten.etherescan.io) referente a conta do seu contrato após o *deploy* na rede Ropsten do Ethereum**. Note que talvez você precise realizar o _deploy_ múltiplas vezes, porém, envie o *link* somente daquela versão que você considera a final para submissão. Fique a vontade caso precise de outros contratos auxiliares (para servir como biblioteca, por exemplo).
-
-Veja um exemplo de como ficará o cabeçalho do seu arquivo *.sol*:
-```javascript
-// Nome: <nome do componente 1>
-// Nome: <nome do componente 2>
-// Conta do contrato: <link da conta do seu contrato após o deploy>
-
-// Seu contrato começa aqui!
-```
 
 ## Smart Contract `rifa.sol`
 
