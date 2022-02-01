@@ -29,8 +29,6 @@ contract poupanca{
     //payble para retirar dinheiro as moedas direto da conta
     function Depositar(uint _daysAfter) public payable {
         require(owner == msg.sender);
-    
-        require(_daysAfter>0, "Dias negativos");
         uint _desbloqueio = block.timestamp + _daysAfter * 1 days;
         poupanca_owner[msg.sender] = Poupanca(msg.value,_desbloqueio,owner);
         emit Deposit(msg.sender, msg.value);
